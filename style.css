@@ -1,0 +1,101 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    padding: 5rem 0;
+}
+header {
+    background: #e7b21e;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+p{
+    color: rgb(154, 10, 231);
+    font-size: 0 ,9375rem;
+    line-height: 1.800rem;
+    font-weight: 500;
+}
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+header .btn {
+    background: #fff;
+    color: #f8b500;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+header .btn:hover {
+    background: #e0a400;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.features, .testimonials {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.features h2, .testimonials h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.feature, .testimonial {
+    margin: 20px 0;
+}
+
+.feature img, .testimonial img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.testimonial p {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.testimonial h4 {
+    font-size: 1em;
+    margin-top: 10px;
+    color: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
